@@ -15,21 +15,19 @@ puts 'cosmel '.capitalize + 'villalobos'.upcase
 print 'cosmel' + 'villalobos'
 
 # main sports events during the year
-=begin
-events = {
-    :1975=> "Tennis Australia Open won by John Newcombe and Evonne Goolagong",
-    :2004=>"Boston Red Sox won the world series",
-    :2013=>"Miami Heat won the NBA Championship",
-    :2001=>"colorado avalanche won the stanley cup",
-    :1981=>"San Francisco 49ers"
-}
-
-puts events[:1975]
-puts events[:2004]
-puts events[:2013]
-puts events[:2001]
-puts events[:1981]
-=end
+# events = {
+#     :1975=> "Tennis Australia Open won by John Newcombe and Evonne Goolagong",
+#     :2004=>"Boston Red Sox won the world series",
+#     :2013=>"Miami Heat won the NBA Championship",
+#     :2001=>"colorado avalanche won the stanley cup",
+#     :1981=>"San Francisco 49ers"
+# }
+#
+# puts events[:1975]
+# puts events[:2004]
+# puts events[:2013]
+# puts events[:2001]
+# puts events[:1981]
 
 movies = { jaws: 1975,
            anchorman: 2004,
@@ -64,7 +62,7 @@ puts 'cosmel'.length
 puts 'cosmel'.reverse
 
 puts 12 - 1 * 4
-puts (-40 * -20)
+puts(-40 * -20)
 puts 4.2.to_i * 5
 puts 10 + 1.to_f
 puts 14 % 4
@@ -75,7 +73,7 @@ puts 3**8 / 4.to_i
 puts (3**8 / 4.to_i).to_f
 puts 20.9.to_i / 15 % 3
 
-puts age = 18
+age = 18
 puts age += 4
 
 puts 'what is your name'
